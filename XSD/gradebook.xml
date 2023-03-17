@@ -1,0 +1,125 @@
+<gradebook>
+<catalog>
+<entry>
+<cno>csc226</cno>
+<ctitle>Introduction to Programming I</ctitle>
+</entry>
+<entry>
+<cno>csc227</cno>
+<ctitle>Introduction to Programming II</ctitle>
+</entry>
+<entry>
+<cno>csc343</cno>
+<ctitle>Assembly Programming</ctitle>
+</entry>
+</catalog>
+<students>
+<student>
+<sid>1111</sid>
+<fname>Nandita</fname>
+<lname>Rajshekhar</lname>
+<minit>K</minit>
+</student>
+<student>
+<sid>2222</sid>
+<fname>Sydney</fname>
+<lname>Corn</lname>
+<minit>A</minit>
+</student>
+<student>
+<sid>3333</sid>
+<fname>Susan</fname>
+<lname>Williams</lname>
+<minit>B</minit>
+</student>
+<student>
+<sid>4444</sid>
+<fname>Naveen</fname>
+<lname>Rajshekhar</lname>
+<minit>B</minit>
+</student>
+<student>
+<sid>5555</sid>
+<fname>Elad</fname>
+<lname>Yam</lname>
+<minit>G</minit>
+</student>
+<student>
+<sid>6666</sid>
+<fname>Lincoln</fname>
+<lname>Herring</lname>
+<minit>F</minit>
+</student>
+<student>
+<sid>7777</sid>
+<fname>Stephanie</fname>
+<lname>Martin</lname>
+<minit>G</minit>
+</student>
+</students>
+<enrolls>
+<enroll sid="1111" cid="f96-1"/>
+<enroll sid="2222" cid="f96-1"/>
+<enroll sid="4444" cid="f96-1"/>
+<enroll sid="1111" cid="f96-2"/>
+<enroll sid="2222" cid="f96-2"/>
+<enroll sid="3333" cid="f96-2"/>
+<enroll sid="5555" cid="sp97-1"/>
+<enroll sid="6666" cid="sp97-1"/>
+<enroll sid="1111" cid="sp97-2"/>
+</enrolls>
+<courses>
+<course cid="f96-1" term="f96" lineno="1031" cno="csc226" a="90" b="80" c="65" d="50">
+<component name="exam1" maxpoints="100" weight="30">
+<score sid="1111">90</score>
+<score sid="2222">70</score>
+<score sid="4444">83</score>
+</component>
+<component name="quizzes" maxpoints="80" weight="20">
+<score sid="1111">75</score>
+<score sid="2222">40</score>
+<score sid="4444">71</score>
+</component>
+<component name="final" maxpoints="100" weight="50">
+<score sid="1111">95</score>
+<score sid="2222">82</score>
+<score sid="4444">74</score>
+</component>
+</course>
+<course cid="f96-2" term="f96" lineno="1032" cno="csc227" a="90" b="80" c="65" d="50">
+<component name="programs" maxpoints="400" weight="40">
+<score sid="1111">400</score>
+<score sid="2222">340</score>
+<score sid="3333">380</score>
+</component>
+<component name="midterm" maxpoints="100" weight="20">
+<score sid="1111">95</score>
+<score sid="2222">65</score>
+<score sid="3333">75</score>
+</component> 
+<component name="final" maxpoints="100" weight="40">
+<score sid="1111">99</score>
+<score sid="2222">95</score>
+<score sid="3333">88</score>
+</component>
+</course>
+<course cid="sp97-1" term="sp97" lineno="1031" cno="csc226" a="90" b="80" c="65" d="50">
+<component name="paper" maxpoints="100" weight="50">
+<score sid="5555">80</score>
+<score sid="6666">80</score>
+</component>
+<component name="project" maxpoints="100" weight="50">
+<score sid="5555">90</score>
+<score sid="6666">85</score>
+</component>
+</course>
+<course cid="sp97-2" term="sp97" lineno="1032" cno="csc343" a="90" b="80" c="65" d="50">
+<component name="paper" maxpoints="100" weight="50">
+<score sid="1111">96</score>
+</component>
+<component name="project" maxpoints="100" weight="50">
+<score sid="1111">90</score>
+</component>
+</course>
+</courses>
+</gradebook>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="node" type="NodeType"/>
+  
+  <xs:complexType name="NodeType">
+    <xs:choice minOccurs="0" maxOccurs="2">
+      <xs:element name="node" type="NodeType"/>
+    </xs:choice>
+    <xs:attribute name="value" type="xs:decimal" use="required"/>
+    <xs:attribute name="child" use="required">
+      <xs:simpleType>
+        <xs:restriction base="xs:string">
+          <xs:enumeration value="left"/>
+          <xs:enumeration value="right"/>
+          <xs:enumeration value="none"/>
+        </xs:restriction>
+      </xs:simpleType>
+    </xs:attribute>
+  </xs:complexType>
+
+</xs:schema>

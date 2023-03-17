@@ -1,0 +1,58 @@
+  body {
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    min-width: 850px;
+    color: #333333;
+  }
+
+  #header {
+    font-weight: bold;
+    padding-bottom: 1%;
+    font-size: large;
+  }
+
+  a {
+    font-weight: bold;
+    font-size: 16px;
+  }
+
+  li {
+    list-style-type: none;
+    padding-bottom: 1%;
+  }
+
+  table td, table {
+    border: 1px solid black;
+  }
+
+  .title
+  {
+    font-weight: bold;
+  }
+
+  .tablePadd
+  {
+    padding-bottom: 1%;
+    padding-top: 1%;
+  }
+  
+  h1 {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+
+  a:link,
+  a:active,
+  a:visited {
+    color: #1122CC;
+    cursor: pointer;
+  }
+
+  div {
+    margin: 0;
+    padding: 0;
+  }
+
